@@ -1,0 +1,288 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Montserrat:ital,wght@0,400;0,500;1,700&display=swap');
+
+/** {
+    border: 1px solid red;
+}*/
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: auto;
+    padding: 0 200px;
+    margin: o auto;
+}
+
+/* Шапка */
+
+.header {
+    padding-top: 52px;
+    background-color: #FFF;
+}
+
+.heaher-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 60px;
+    font-size: 16px;;
+}
+
+.nav-link {
+    color: black;
+}
+
+.header-row{
+    display: flex;
+    justify-content:space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    margin-right: 24px;
+}
+
+.header-heading {
+    width: 602px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 129.02%;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-heading-bl {
+    margin-bottom: 17px;
+    width: 602px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 129.02%;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #3632FF;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1A1A1A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button, .button-2 {
+    margin-top: 40px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+gap: 10px;
+width: 178px;
+height: 48px;
+background: #3632FF;
+box-shadow: 0px 4px 16px rgba(255, 130, 85, 0.16);
+border-radius: 42px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+button p {
+width: 98px;
+height: 16px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/*Для кого*/
+
+.title, .price-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #1A1A1A;
+    margin-bottom: 104px;
+}
+
+#for-whom {
+    padding: 274px 0;
+
+}
+
+.for-whom-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 48px;
+}
+
+.for-whom-card {
+    width: 245px;
+    height: 418px;
+}
+
+.for-whom-card p {
+    width: 240px;
+    height: 66px;
+}
+
+.for-whom-card-img {
+    margin-bottom: 39px;
+}
+
+
+/*Содержание*/
+
+
+.content-row {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 300px;
+}
+    
+    
+    /*Польза*/
+    
+    
+.benefit-text {
+    margin-top: 71px;
+}
+
+.benefit-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+}
+
+
+    /*Стоимость*/
+
+.price-row{
+    display: flex;
+    justify-content: space-betweens;
+    margin-top: 350px;
+    column-gap: 300px;
+}
+
+.price-text p {
+    margin-top: 87px;
+}
+
+.price-title {
+    margin-top: 47px;
+}
+
+.button-2 {
+    position: relative;
+    left: 160px;
+    bottom: 94px;
+}
+
+/*Отзывы*/
+
+.feedback-img {
+    margin-top: 107px;
+}
+
+/*доступ*/
+
+
+.access-row {
+   margin-top: 181px;
+   justify-content: space-between;
+   text-align: center;
+}
+
+.access-text b{
+    color: #3632FF;
+}
+
+.button-3 {
+    margin-top: 43px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+gap: 10px;
+position: relative;
+left: 420px;
+background: #3632FF;
+box-shadow: 0px 4px 16px rgba(255, 130, 85, 0.16);
+border-radius: 42px;
+}
+
+.button-3 p {
+    width: 200px;
+height: 16px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+/*Подвал*/
+
+
+.futer {
+    height: 65px;
+    background-color: #1A1A1A;
+    margin-top: 180px;
+}
+
+.futer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.agree{
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    position: relative;
+    top: 13px;
+}
+
+
+
